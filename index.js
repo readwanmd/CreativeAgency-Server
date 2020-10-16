@@ -152,7 +152,7 @@ client.connect(err => {
 
 
 app.get('/', (req, res) => {
-    res.send("doctorsPortal's backend")
+    res.send("Creative Agency")
 })
 
 app.listen(process.env.PORT || port)
